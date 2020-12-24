@@ -214,7 +214,8 @@ html, body {
 }
 
 .aside_container {
-    width: 450px;
+    max-width: 450px;
+    min-width: 300px;
     height: auto;
     margin-top: 40px;
     margin-left: 40px;
@@ -289,13 +290,16 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 1px;
+    background-color: transparent;
 }
 
 .result .ft {
-    font-size: 14px;
+    font-size: 14px;    
+    height: 14px;
     color: #787e85;
     letter-spacing: -0.58px;
     font-weight: 500;
+    background-color: transparent;
 }
 
 .result .game_date {

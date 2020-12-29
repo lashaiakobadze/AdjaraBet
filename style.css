@@ -1,4 +1,4 @@
-/* ზოგადი დანიშნულების ელემენტების გასტილვა  */
+/* */
 *, ::after, ::before {
     box-sizing: border-box;
 }
@@ -36,7 +36,7 @@ body {
 body {
     overflow-x: auto;
 }
-/* ჰედერის გასტილვა */
+/* */
 .header {
     width: 100%;
     min-width: 700px;
@@ -201,7 +201,7 @@ body {
     justify-content: center;
 }
 
-/* გავსტილოთ გვერდითა დამატებითი განყოფილება  */
+/* */
 .aside_bar {
     position: absolute;
     top: 60px;
@@ -377,7 +377,7 @@ body {
     }
 }
 
-/* გვერდის ძირითადი ნაწილის გასტილვა  */
+/* */
 .main {
     max-width: 1366px;
     min-width: 750px;
